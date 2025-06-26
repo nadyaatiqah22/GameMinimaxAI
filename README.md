@@ -1,1 +1,1 @@
-# GameMinimaxAI
+# uas-Artificial-Intelegent
