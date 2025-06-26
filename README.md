@@ -1,1 +1,29 @@
-# uas-Artificial-Intelegent
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nim Game with Minimax AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Nim Game with Minimax AI</h1>
+
+  <div id="game">
+    <div id="heaps-container"></div>
+
+    <div id="controls">
+      <button id="remove-stones-button" disabled>Remove Selected</button>
+      <button id="reset-button">Reset Game</button>
+    </div>
+
+    <div id="status"></div>
+  </div>
+
+  <div id="footer">
+    You play first. Select stones to remove (1 or more) from a single heap. Then click "Remove Selected". The AI will play next.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
